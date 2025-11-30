@@ -28,7 +28,6 @@ const hospitalSchema = new mongoose.Schema({
     type: String,
     required: true,
     unique: true,
-    index: true,
   },
   isActive: {
     type: Boolean,

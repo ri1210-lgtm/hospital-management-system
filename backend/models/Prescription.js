@@ -19,7 +19,6 @@ const prescriptionSchema = new mongoose.Schema({
   tenantId: {
     type: String,
     required: true,
-    index: true,
   },
   diagnosis: {
     type: String,

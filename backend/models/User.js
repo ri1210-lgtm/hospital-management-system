@@ -32,7 +32,6 @@ const userSchema = new mongoose.Schema({
   tenantId: {
     type: String,
     required: true,
-    index: true,
   },
   isActive: {
     type: Boolean,

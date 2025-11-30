@@ -56,7 +56,6 @@ const patientSchema = new mongoose.Schema({
   tenantId: {
     type: String,
     required: true,
-    index: true,
   },
   createdBy: {
     type: mongoose.Schema.Types.ObjectId,
