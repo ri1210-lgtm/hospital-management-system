@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: Inter, Roboto, sans-serif;
+}
+
+.app-content {
+  margin-left: 250px;
+  padding: 24px;
+}
